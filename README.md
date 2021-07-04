@@ -1,1 +1,1 @@
-# UpliftProject
+# The Uplift Project
