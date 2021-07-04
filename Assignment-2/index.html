@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- this includes title of your webpage -->
+    <title>Ben & Jerry's</title>
+
+    <!-- We're including a Bootstrap CSS file, as well as one you can edit and make your own. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./assets/style.css" rel="stylesheet" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <!-- you can edit this CSS file and include your own styles! -->
+</head>
+<body>
+
+    <!-- This is a responsive navbar. -->
+    <!-- I have fixed the navbar to the top -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="" width="100px" height="40px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                  <!-- I have linked the carousel section with this link by accessing the id of carousel. -->
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                  <!-- I have linked the form section with this link by accessing the id of form. -->
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <!-- I have linked the form section with this link by accessing the id of form. -->
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+          </div>
+        </div>
+      </nav>
+
+        
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/product3.jpg" class="d-block w-100" alt="image4">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/product.jpg" class="d-block w-100" alt="image5">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/product5.jpg" class="d-block w-100" alt="image6">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br>
+          <br>
+
+        <div class="container-fluid" id="About"> 
+            <h2>About</h2>
+
+            <p>Ben & Jerry's Homemade Holdings Inc., trading and commonly known as Ben & Jerry's, is a Vermont-based company that manufactures ice cream, frozen yogurt, and sorbet. Founded in 1978 in Burlington, Vermont, it was sold in 2000 to British conglomerate Unilever. Today, it operates globally as a fully owned subsidiary of Unilever. Its present-day headquarters is in South Burlington, Vermont, with its main factory in Waterbury, Vermont.</p>
+            <div class="row">
+                
+              <div class="col">
+    
+                  <!-- A user can enter any component inside this column, here I have added cards. -->
+                <!-- This is example card! You can include one for you and your team mates! -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/owners.jpg" class="card-img-top" alt="image1">
+                    <div class="card-body">
+                        <!-- We can add images, change title and change description. -->
+                      <h5 class="card-title">Founders</h5>
+                      <p class="card-text">Ben Cohen and Jerry Greenfield.</p>
+                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                     <!-- A user can enter any component inside this column, here I have added cards. -->
+    
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/logo1.png" class="card-img-top" alt="image2">
+                    <div class="card-body">
+                        <!-- We can add images, change title and change description. -->
+                      <h5 class="card-title">Owner</h5>
+                      <p class="card-text">Unilever</p>
+                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+        </div>
+
+   
+
+
+       <div class="container-fluid" id="products">
+          
+            <h2>Product types</h2>
+            <div class="image">
+              <img src="./assets/ice pint.png" alt="" width="300px" height="270px">
+              <h4 align="center">Ice Cream Pints</h4>
+            </div>
+            
+            <div class="image">
+                <img src="./assets/netflix-chill.jpg" alt="" width="300px" height="270px">
+                <h4 align="center">Netflix Original Flavours</h4>
+            </div>
+              
+            <div class="image">
+                <img src="./assets/pint-slices.jpg" alt="" width="300px" height="270px">
+                <h4 align="center">Ice Cream pints</h4>
+            </div>
+              
+            <div class="image">   
+                <img src="./assets/chunks.png" alt="" width="300px" height="270px">
+                <h4 align="center">Cookie Dough Chunks</h4>
+              </div>
+            
+            <div class="image">
+              <img src="./assets/light ice.png" alt="" width="300px" height="270px">
+              <h4 align="center">Light Ice Cream</h4>
+            </div>
+            
+            <div class="image">
+              <img src="./assets/mini cups.jpg" alt="" width="300px" height="270px">
+              <h4 align="center">Mini Cups</h4>
+            </div>
+              
+          
+        </div>
+      </div>
+      <br>
+      <br> 
+
+     
+
+      <!-- A form to contact you and your teamates by the users who acces this web. -->
+      <!-- This is responsive too. -->
+      <form class="container-fluid" id="contact" action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <div class="mb-3">
+            <h3>Feel free to contact us:</h3>
+            <br>
+            <br>
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <!-- <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div> -->
+        <div class="mb-3">
+            <label for="exampleInputQuery" class="form-label">Query</label>
+            <input type="text" class="form-control" id="exampleInputQuery">
+          </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+
+      <footer>
+        <div class="container-fluid" id="content">
+         
+            <form action="#">
+              
+              <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </form>
+        </div>
+        
+        <div class="bottom">
+          <p>Copyright © 2020 <a href="#">Ben and Jerry's</a> All rights reserved</p>
+        </div>
+      </footer>
+
+    <!-- This is Bootstrap's JavaScript!-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+    <!-- <script src="./assets/scripts.js"></script> -->
+    
+</body>
+</html>
