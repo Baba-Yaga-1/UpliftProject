@@ -60,8 +60,7 @@ To add the battery and network icons select the Iconify plugin and search for th
 
 <br>
 <br>
-This is the [Figma](https://www.figma.com/file/d6CHgJLvUHc7CaZx8v3xHf/Login-Sign-up-UI?node-id=0%3A1) prototype, check out the link.
-<br>
+
 
 Made by Liza Deka.
 
