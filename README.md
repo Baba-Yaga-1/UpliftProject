@@ -11,6 +11,9 @@
 
 - To add frames, select region tools from the navbar of figma screen.
 
+![figma13](https://user-images.githubusercontent.com/56999749/134530018-579065fd-773d-4702-9f8e-bed016fc16c7.JPG)
+
+
 ![figma1](https://user-images.githubusercontent.com/56999749/133961023-e20d6234-94a7-42b9-a356-3ed54e3e12f7.JPG)
 
 2. We can then use shape tools on the frame to adjust its size.
@@ -47,8 +50,13 @@ To apply gradient effect -> Click on Solid in the fill tab and then select any e
 
 5. For the buttons on the landing page we need to add two rectangle from the shape tools option. 
 <br>
+
+![figma14](https://user-images.githubusercontent.com/56999749/134530572-dd359c22-7c04-4bc9-88db-ab2adf5d53d5.JPG)
+
 Then we can also change its colour and its corner radius.
+
 <br>
+
 The corner radius can be changed from the Design tab.
 
 ![figma12](https://user-images.githubusercontent.com/56999749/133962375-699b4152-6a95-43e3-9d49-b362a2810c5e.JPG)
